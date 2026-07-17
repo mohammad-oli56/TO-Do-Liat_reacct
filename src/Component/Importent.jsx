@@ -36,7 +36,7 @@ function Importent() {
       task.id === id ? { ...task, completed: true } : task
     );
 
-    localStorage.setItem("tasks", JSON.stringify(updated));
+    localStorage.setItem("tasks", JSON.stringify(updated) );
 
     // refresh UI → completed task will disappear automatically
     loadTasks();
