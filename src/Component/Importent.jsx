@@ -5,7 +5,7 @@ function Importent() {
 
   // load important + NOT completed tasks only
   const loadTasks = () => {
-    const allTasks = JSON.parse(localStorage.getItem("tasks")) || [];
+    const allTasks = JSON.parse(localStorage.getItem("tasks"))  || [];
 
     const filtered = allTasks.filter(
       (task) => task.important === true && task.completed === false
