@@ -7,7 +7,7 @@ import Completed from "../Component/Complete";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Rootlayout />,
+    element: <Rootlayout  />,
     children: [
       {
         index: true,
