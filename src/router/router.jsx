@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
     element: <Rootlayout  />,
     children: [
       {
-        index: true,
+        index: true, 
         element: <Task />
       },
       {
