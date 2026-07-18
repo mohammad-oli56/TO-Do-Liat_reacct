@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
         path: "important",
         element: <Important />
       },
-      {
+      { 
         path: "completed",
         element: <Completed />
       }
