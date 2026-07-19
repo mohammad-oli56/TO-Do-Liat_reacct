@@ -11,7 +11,7 @@ function Navbar() {
 
       <ul className="space-y-2">
         <li>
-          <NavLink to="/" className="btn  w-full">Task</NavLink>
+          <NavLink to="/" className="btn w-full">Task</NavLink>
         </li>
 
         <li>
